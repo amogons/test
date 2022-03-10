@@ -1,0 +1,85 @@
+{
+  "mod_elements": [
+    {
+      "name": "LabCraft",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_craft"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "path": "~/Ore Results"
+    },
+    {
+      "name": "SteelIngotProduce",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_produce",
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tablab_craft": "Lab Craft",
+      "item.labcraft.steel_ingot": "Steel Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "Ore Results",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "labcraft",
+    "modName": "LabCraft",
+    "version": "1.0.0",
+    "author": "Matte, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.labcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
