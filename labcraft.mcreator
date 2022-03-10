@@ -3,7 +3,7 @@
     {
       "name": "LabCraft",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft"
@@ -20,7 +20,7 @@
     {
       "name": "SteelIngotProduce",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce",
@@ -29,7 +29,7 @@
     {
       "name": "Hammer",
       "type": "item",
-      "sortid": 6,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hammer",
@@ -38,7 +38,7 @@
     {
       "name": "SteelDust",
       "type": "item",
-      "sortid": 7,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_dust",
@@ -65,7 +65,7 @@
     {
       "name": "BlockOfSteel",
       "type": "block",
-      "sortid": 10,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_steel",
@@ -74,7 +74,7 @@
     {
       "name": "SteelNugget",
       "type": "item",
-      "sortid": 11,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_nugget",
@@ -83,7 +83,7 @@
     {
       "name": "SteelNuggetProduce",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_nugget_produce",
@@ -92,7 +92,7 @@
     {
       "name": "SteelBlockProduce",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_produce",
@@ -101,7 +101,7 @@
     {
       "name": "SteelIngotProduce2",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce_2",
@@ -110,14 +110,30 @@
     {
       "name": "SteelIngotProduce3",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce_3",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Radioactivity",
+      "type": "overlay",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactivity",
+      "path": "~/GUIs"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "RadioactivityPlayer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -162,6 +178,10 @@
       },
       {
         "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "GUIs",
         "children": []
       }
     ]

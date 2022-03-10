@@ -13,7 +13,7 @@ import net.mcreator.labcraft.LabcraftModElements;
 @LabcraftModElements.ModElement.Tag
 public class LabCraftItemGroup extends LabcraftModElements.ModElement {
 	public LabCraftItemGroup(LabcraftModElements instance) {
-		super(instance, 3);
+		super(instance, 6);
 	}
 
 	@Override
