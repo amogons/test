@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "labcraft:blocks/steelblock",
+    "up": "labcraft:blocks/steelblock",
+    "north": "labcraft:blocks/steelblock",
+    "east": "labcraft:blocks/steelblock",
+    "south": "labcraft:blocks/steelblock",
+    "west": "labcraft:blocks/steelblock",
+    "particle": "labcraft:blocks/steelblock"
+  }
+}

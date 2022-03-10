@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "labcraft:hammer"
+    },
+    {
+      "item": "labcraft:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "labcraft:steel_dust",
+    "count": 1
+  }
+}

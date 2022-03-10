@@ -25,6 +25,96 @@
       "locked_code": false,
       "registry_name": "steel_ingot_produce",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Hammer",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SteelDust",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust",
+      "path": "~/Ore Results"
+    },
+    {
+      "name": "SteelDustProduce",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust_produce",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HammerProduce",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_produce",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlockOfSteel",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_steel",
+      "path": "~/Ore Results"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_nugget",
+      "path": "~/Ore Results"
+    },
+    {
+      "name": "SteelNuggetProduce",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_nugget_produce",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelBlockProduce",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_produce",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelIngotProduce2",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_produce_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelIngotProduce3",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_produce_3",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -32,11 +122,19 @@
   "language_map": {
     "en_us": {
       "itemGroup.tablab_craft": "Lab Craft",
-      "item.labcraft.steel_ingot": "Steel Ingot"
+      "item.labcraft.steel_ingot": "Steel Ingot",
+      "block.labcraft.block_of_steel": "Block of Steel",
+      "item.labcraft.hammer": "Hammer",
+      "item.labcraft.steel_dust": "Steel Dust",
+      "item.labcraft.steel_nugget": "Steel Nugget"
     },
     "de_de": {
       "itemGroup.tablab_craft": "Lab Craft",
-      "item.labcraft.steel_ingot": "Stahl Barren"
+      "item.labcraft.steel_ingot": "Stahl Barren",
+      "block.labcraft.block_of_steel": "Block aus Stahl",
+      "item.labcraft.hammer": "Hammer",
+      "item.labcraft.steel_dust": "Stahl Staub",
+      "item.labcraft.steel_nugget": "Stahl Klumpen"
     }
   },
   "foldersRoot": {

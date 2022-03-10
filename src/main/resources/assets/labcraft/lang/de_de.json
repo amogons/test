@@ -1,4 +1,8 @@
 {
   "itemGroup.tablab_craft": "Lab Craft",
-  "item.labcraft.steel_ingot": "Stahl Barren"
+  "item.labcraft.steel_ingot": "Stahl Barren",
+  "block.labcraft.block_of_steel": "Block aus Stahl",
+  "item.labcraft.hammer": "Hammer",
+  "item.labcraft.steel_dust": "Stahl Staub",
+  "item.labcraft.steel_nugget": "Stahl Klumpen"
 }

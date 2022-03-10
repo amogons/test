@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "labcraft:steel_nugget"
+    },
+    "1": {
+      "item": "labcraft:steel_nugget"
+    },
+    "2": {
+      "item": "labcraft:steel_nugget"
+    },
+    "3": {
+      "item": "labcraft:steel_nugget"
+    },
+    "4": {
+      "item": "labcraft:steel_nugget"
+    },
+    "5": {
+      "item": "labcraft:steel_nugget"
+    },
+    "6": {
+      "item": "labcraft:steel_nugget"
+    },
+    "7": {
+      "item": "labcraft:steel_nugget"
+    },
+    "8": {
+      "item": "labcraft:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "labcraft:steel_ingot",
+    "count": 1
+  }
+}
