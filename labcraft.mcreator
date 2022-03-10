@@ -33,6 +33,10 @@
     "en_us": {
       "itemGroup.tablab_craft": "Lab Craft",
       "item.labcraft.steel_ingot": "Steel Ingot"
+    },
+    "de_de": {
+      "itemGroup.tablab_craft": "Lab Craft",
+      "item.labcraft.steel_ingot": "Stahl Barren"
     }
   },
   "foldersRoot": {
