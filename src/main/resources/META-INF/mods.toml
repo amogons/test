@@ -1,6 +1,6 @@
 modLoader="javafml"
-loaderVersion="[36,)"
-license="Academic Free License v3.0"
+loaderVersion="[37,)"
+license="All Rights Reserved"
 
 [[mods]]
 modId="labcraft"
@@ -8,12 +8,12 @@ version="1.0.0"
 displayName="LabCraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Matte, MCreator"
+authors="NetherGamer"
 
 [[dependencies.labcraft]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.17.1]"
     ordering="NONE"
     side="BOTH"
 
