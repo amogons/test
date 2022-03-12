@@ -7,8 +7,11 @@ modId="labcraft"
 version="1.0.0"
 displayName="LabCraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/labcraft"
 authors="NetherGamer"
+description='''
+A Mod with realstic Resources
+'''
 
 [[dependencies.labcraft]]
     modId="minecraft"
@@ -19,4 +22,10 @@ authors="NetherGamer"
 
 
 
+[[dependencies.labcraft]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

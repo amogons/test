@@ -190,15 +190,20 @@
     "modid": "labcraft",
     "modName": "LabCraft",
     "version": "1.0.0",
+    "description": "A Mod with realstic Resources",
     "author": "NetherGamer",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/labcraft",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.labcraft",
     "lockBaseModFiles": false
   },
