@@ -10,7 +10,6 @@ import net.mcreator.labcraft.init.LabcraftModTabs;
 public class SteelIngotItem extends Item {
 	public SteelIngotItem() {
 		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAFT).stacksTo(64).rarity(Rarity.COMMON));
-		setRegistryName("steel_ingot");
 	}
 
 	@Override

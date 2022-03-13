@@ -17,7 +17,6 @@ import java.util.Collections;
 public class BlockOfSteelBlock extends Block {
 	public BlockOfSteelBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(2f, 15f));
-		setRegistryName("block_of_steel");
 	}
 
 	@Override

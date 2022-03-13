@@ -16,7 +16,6 @@ import java.util.List;
 public class HammerItem extends Item {
 	public HammerItem() {
 		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAFT).durability(512).rarity(Rarity.COMMON));
-		setRegistryName("hammer");
 	}
 
 	@Override

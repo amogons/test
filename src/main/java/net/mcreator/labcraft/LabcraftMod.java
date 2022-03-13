@@ -16,15 +16,19 @@ package net.mcreator.labcraft;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.labcraft.init.LabcraftModTabs;
+import net.mcreator.labcraft.init.LabcraftModItems;
+import net.mcreator.labcraft.init.LabcraftModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +45,10 @@ public class LabcraftMod {
 
 	public LabcraftMod() {
 		LabcraftModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		LabcraftModBlocks.REGISTRY.register(bus);
+		LabcraftModItems.REGISTRY.register(bus);
+
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

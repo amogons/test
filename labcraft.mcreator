@@ -137,7 +137,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tablab_craft": "Lab Craft",
+      "itemGroup.tablab_craft": "Lab Craft:Ores and Resources",
       "item.labcraft.steel_ingot": "Steel Ingot",
       "block.labcraft.block_of_steel": "Block of Steel",
       "item.labcraft.hammer": "Hammer",
@@ -199,13 +199,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "just_enough_items"
-    ],
-    "currentGenerator": "forge-1.17.1",
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.labcraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202200112711
 }
