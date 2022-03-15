@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "labcraft:blocks/battery1",
+    "up": "labcraft:blocks/battery1",
+    "north": "labcraft:blocks/battery1",
+    "east": "labcraft:blocks/battery1",
+    "south": "labcraft:blocks/battery1",
+    "west": "labcraft:blocks/battery1",
+    "particle": "labcraft:blocks/battery1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "labcraft:block/battery_tier_1"
+    }
+  }
+}

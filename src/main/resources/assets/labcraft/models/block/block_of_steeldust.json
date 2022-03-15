@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "labcraft:blocks/steeldustblock",
+    "up": "labcraft:blocks/steeldustblock",
+    "north": "labcraft:blocks/steeldustblock",
+    "east": "labcraft:blocks/steeldustblock",
+    "south": "labcraft:blocks/steeldustblock",
+    "west": "labcraft:blocks/steeldustblock",
+    "particle": "labcraft:blocks/steeldustblock"
+  }
+}

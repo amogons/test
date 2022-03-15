@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="LabCraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/labcraft"
+logoFile="logo.png"
 authors="NetherGamer"
 description='''
 A Mod with realstic Resources

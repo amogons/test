@@ -1,8 +1,12 @@
 {
+  "block.labcraft.cable": "Cable",
+  "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
   "itemGroup.tablab_craft": "Lab Craft:Ores and Resources",
   "item.labcraft.steel_ingot": "Steel Ingot",
   "block.labcraft.block_of_steel": "Block of Steel",
+  "block.labcraft.battery_tier_1": "Battery Tier 1",
   "item.labcraft.hammer": "Hammer",
   "item.labcraft.steel_dust": "Steel Dust",
-  "item.labcraft.steel_nugget": "Steel Nugget"
+  "item.labcraft.steel_nugget": "Steel Nugget",
+  "block.labcraft.block_of_steeldust": "Block Of Steeldust"
 }

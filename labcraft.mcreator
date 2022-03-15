@@ -3,7 +3,7 @@
     {
       "name": "LabCraft",
       "type": "tab",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft"
@@ -11,7 +11,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot",
@@ -20,7 +20,7 @@
     {
       "name": "SteelIngotProduce",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce",
@@ -38,7 +38,7 @@
     {
       "name": "SteelDust",
       "type": "item",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_dust",
@@ -47,7 +47,7 @@
     {
       "name": "SteelDustProduce",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_dust_produce",
@@ -56,7 +56,7 @@
     {
       "name": "HammerProduce",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hammer_produce",
@@ -65,7 +65,7 @@
     {
       "name": "BlockOfSteel",
       "type": "block",
-      "sortid": 5,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_steel",
@@ -74,7 +74,7 @@
     {
       "name": "SteelNugget",
       "type": "item",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_nugget",
@@ -83,7 +83,7 @@
     {
       "name": "SteelNuggetProduce",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_nugget_produce",
@@ -92,7 +92,7 @@
     {
       "name": "SteelBlockProduce",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_produce",
@@ -101,7 +101,7 @@
     {
       "name": "SteelIngotProduce2",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce_2",
@@ -110,7 +110,7 @@
     {
       "name": "SteelIngotProduce3",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce_3",
@@ -119,11 +119,75 @@
     {
       "name": "Radioactivity",
       "type": "overlay",
-      "sortid": 14,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radioactivity",
       "path": "~/GUIs"
+    },
+    {
+      "name": "Cable",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable",
+      "path": "~/Machines"
+    },
+    {
+      "name": "CableWork",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_work",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedues"
+    },
+    {
+      "name": "BatteryTier1",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_tier_1",
+      "path": "~/Machines"
+    },
+    {
+      "name": "BlockOfSteeldust",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_steeldust",
+      "path": "~/Ore Results"
+    },
+    {
+      "name": "LabCraftEnergy",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_craft_energy"
     }
   ],
   "variable_elements": [
@@ -137,20 +201,28 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.labcraft.cable": "Cable",
+      "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft": "Lab Craft:Ores and Resources",
       "item.labcraft.steel_ingot": "Steel Ingot",
       "block.labcraft.block_of_steel": "Block of Steel",
+      "block.labcraft.battery_tier_1": "Battery Tier 1",
       "item.labcraft.hammer": "Hammer",
       "item.labcraft.steel_dust": "Steel Dust",
-      "item.labcraft.steel_nugget": "Steel Nugget"
+      "item.labcraft.steel_nugget": "Steel Nugget",
+      "block.labcraft.block_of_steeldust": "Block Of Steeldust"
     },
     "de_de": {
+      "block.labcraft.cable": "Cable",
+      "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft": "Lab Craft",
       "item.labcraft.steel_ingot": "Stahl Barren",
       "block.labcraft.block_of_steel": "Block aus Stahl",
+      "block.labcraft.battery_tier_1": "Battery Tier 1",
       "item.labcraft.hammer": "Hammer",
       "item.labcraft.steel_dust": "Stahl Staub",
-      "item.labcraft.steel_nugget": "Stahl Klumpen"
+      "item.labcraft.steel_nugget": "Stahl Klumpen",
+      "block.labcraft.block_of_steeldust": "Block Of Steeldust"
     }
   },
   "foldersRoot": {
@@ -183,6 +255,10 @@
       {
         "name": "GUIs",
         "children": []
+      },
+      {
+        "name": "Procedues",
+        "children": []
       }
     ]
   },
@@ -196,13 +272,14 @@
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.labcraft",
+    "modElementsPackage": "com.nethergamer.labcraft",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200112711
