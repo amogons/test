@@ -1,0 +1,76 @@
+{
+  "_fv": 25,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 252,
+    "height": 166,
+    "inventoryOffsetX": 40,
+    "inventoryOffsetY": 2,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 316,
+          "y": 100
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Install",
+          "onClick": {
+            "name": "ComputerBIOS"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Install",
+          "x": 249,
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 281,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inactive",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Inactive",
+          "x": 281,
+          "y": 84
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

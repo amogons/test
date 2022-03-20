@@ -1,12 +1,15 @@
 {
+  "item.labcraft.minesoft_system_stick": "Minesoft System Stick",
+  "block.labcraft.computer": "Computer",
   "block.labcraft.cable": "Cable",
-  "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
   "itemGroup.tablab_craft": "Lab Craft:Ores and Resources",
   "item.labcraft.steel_ingot": "Steel Ingot",
   "block.labcraft.block_of_steel": "Block of Steel",
   "block.labcraft.battery_tier_1": "Battery Tier 1",
+  "block.labcraft.block_of_steeldust": "Block Of Steeldust",
+  "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
+  "itemGroup.tablab_craft_computer": "Lab CraftComputers",
   "item.labcraft.hammer": "Hammer",
-  "item.labcraft.steel_dust": "Steel Dust",
   "item.labcraft.steel_nugget": "Steel Nugget",
-  "block.labcraft.block_of_steeldust": "Block Of Steeldust"
+  "item.labcraft.steel_dust": "Steel Dust"
 }

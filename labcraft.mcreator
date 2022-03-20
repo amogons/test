@@ -188,6 +188,41 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft_energy"
+    },
+    {
+      "name": "ComputerBIOSGUI",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "computer_biosgui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Computer",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer",
+      "path": "~/Computers"
+    },
+    {
+      "name": "LabCraftComputer",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_craft_computer"
+    },
+    {
+      "name": "MinesoftSystemStick",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minesoft_system_stick",
+      "path": "~/Computers"
     }
   ],
   "variable_elements": [
@@ -201,28 +236,34 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.labcraft.minesoft_system_stick": "Minesoft System Stick",
+      "block.labcraft.computer": "Computer",
       "block.labcraft.cable": "Cable",
-      "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft": "Lab Craft:Ores and Resources",
       "item.labcraft.steel_ingot": "Steel Ingot",
       "block.labcraft.block_of_steel": "Block of Steel",
       "block.labcraft.battery_tier_1": "Battery Tier 1",
+      "block.labcraft.block_of_steeldust": "Block Of Steeldust",
+      "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
+      "itemGroup.tablab_craft_computer": "Lab CraftComputers",
       "item.labcraft.hammer": "Hammer",
-      "item.labcraft.steel_dust": "Steel Dust",
       "item.labcraft.steel_nugget": "Steel Nugget",
-      "block.labcraft.block_of_steeldust": "Block Of Steeldust"
+      "item.labcraft.steel_dust": "Steel Dust"
     },
     "de_de": {
+      "item.labcraft.minesoft_system_stick": "Minesoft System Stick",
+      "block.labcraft.computer": "Computer",
       "block.labcraft.cable": "Cable",
-      "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft": "Lab Craft",
       "item.labcraft.steel_ingot": "Stahl Barren",
       "block.labcraft.block_of_steel": "Block aus Stahl",
       "block.labcraft.battery_tier_1": "Battery Tier 1",
+      "block.labcraft.block_of_steeldust": "Block Of Steeldust",
+      "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
+      "itemGroup.tablab_craft_computer": "Lab CraftComputers",
       "item.labcraft.hammer": "Hammer",
-      "item.labcraft.steel_dust": "Stahl Staub",
       "item.labcraft.steel_nugget": "Stahl Klumpen",
-      "block.labcraft.block_of_steeldust": "Block Of Steeldust"
+      "item.labcraft.steel_dust": "Stahl Staub"
     }
   },
   "foldersRoot": {
@@ -258,6 +299,10 @@
       },
       {
         "name": "Procedues",
+        "children": []
+      },
+      {
+        "name": "Computers",
         "children": []
       }
     ]
