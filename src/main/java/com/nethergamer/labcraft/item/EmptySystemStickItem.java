@@ -6,21 +6,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import com.nethergamer.labcraft.init.LabcraftModTabs;
-import com.nethergamer.labcraft.init.LabcraftModItems;
 
-public class MinesoftSystemStickItem extends Item {
-	public MinesoftSystemStickItem() {
+public class EmptySystemStickItem extends Item {
+	public EmptySystemStickItem() {
 		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAFT_COMPUTER).stacksTo(1).rarity(Rarity.UNCOMMON));
-	}
-
-	@Override
-	public boolean hasCraftingRemainingItem() {
-		return true;
-	}
-
-	@Override
-	public ItemStack getContainerItem(ItemStack itemstack) {
-		return new ItemStack(LabcraftModItems.EMPTY_SYSTEM_STICK.get());
 	}
 
 	@Override

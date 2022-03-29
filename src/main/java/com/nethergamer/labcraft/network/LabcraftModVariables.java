@@ -72,6 +72,7 @@ public class LabcraftModVariables {
 					.orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlayerVariables()));
+			clone.EMeralds = original.EMeralds;
 			if (!event.isWasDeath()) {
 				clone.RadioactivityPlayer = original.RadioactivityPlayer;
 			}
@@ -110,6 +111,7 @@ public class LabcraftModVariables {
 
 	public static class PlayerVariables {
 		public double RadioactivityPlayer = 0;
+		public double EMeralds = 100.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -119,12 +121,14 @@ public class LabcraftModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("RadioactivityPlayer", RadioactivityPlayer);
+			nbt.putDouble("EMeralds", EMeralds);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			RadioactivityPlayer = nbt.getDouble("RadioactivityPlayer");
+			EMeralds = nbt.getDouble("EMeralds");
 		}
 	}
 
@@ -151,6 +155,7 @@ public class LabcraftModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
 					variables.RadioactivityPlayer = message.data.RadioactivityPlayer;
+					variables.EMeralds = message.data.EMeralds;
 				}
 			});
 			context.setPacketHandled(true);

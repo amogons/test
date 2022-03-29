@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "mssystemstick",
+    "texture": "emptysystemstick",
     "customModelName": "Normal",
-    "name": "Minesoft System Stick",
+    "name": "Empty System Stick",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:LabCraftComputer"
@@ -16,11 +16,11 @@
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
-      "value": "CUSTOM:EmptySystemStick"
+      "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,

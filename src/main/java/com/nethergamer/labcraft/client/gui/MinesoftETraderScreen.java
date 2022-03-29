@@ -5,36 +5,32 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import com.nethergamer.labcraft.world.inventory.ComputerBIOSGUIMenu;
-import com.nethergamer.labcraft.network.ComputerBIOSGUIButtonMessage;
-import com.nethergamer.labcraft.LabcraftMod;
+import com.nethergamer.labcraft.world.inventory.MinesoftETraderMenu;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class ComputerBIOSGUIScreen extends AbstractContainerScreen<ComputerBIOSGUIMenu> {
+public class MinesoftETraderScreen extends AbstractContainerScreen<MinesoftETraderMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public ComputerBIOSGUIScreen(ComputerBIOSGUIMenu container, Inventory inventory, Component text) {
+	public MinesoftETraderScreen(MinesoftETraderMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 252;
+		this.imageWidth = 176;
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("labcraft:textures/computer_biosgui.png");
+	private static final ResourceLocation texture = new ResourceLocation("labcraft:textures/minesoft_e_trader.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -69,8 +65,6 @@ public class ComputerBIOSGUIScreen extends AbstractContainerScreen<ComputerBIOSG
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "", 193, 46, -12829636);
-		this.font.draw(poseStack, "Inactive", 193, 47, -12829636);
 	}
 
 	@Override
@@ -83,11 +77,5 @@ public class ComputerBIOSGUIScreen extends AbstractContainerScreen<ComputerBIOSG
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 161, this.topPos + 62, 61, 20, new TextComponent("Install"), e -> {
-			if (true) {
-				LabcraftMod.PACKET_HANDLER.sendToServer(new ComputerBIOSGUIButtonMessage(0, x, y, z));
-				ComputerBIOSGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}));
 	}
 }

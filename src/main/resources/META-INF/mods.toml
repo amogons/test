@@ -23,4 +23,10 @@ A Mod with realstic Resources
 
 
 
+[[dependencies.labcraft]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

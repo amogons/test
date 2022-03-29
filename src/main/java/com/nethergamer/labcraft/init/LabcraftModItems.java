@@ -18,6 +18,7 @@ import com.nethergamer.labcraft.item.SteelIngotItem;
 import com.nethergamer.labcraft.item.SteelDustItem;
 import com.nethergamer.labcraft.item.MinesoftSystemStickItem;
 import com.nethergamer.labcraft.item.HammerItem;
+import com.nethergamer.labcraft.item.EmptySystemStickItem;
 import com.nethergamer.labcraft.LabcraftMod;
 
 public class LabcraftModItems {
@@ -32,6 +33,8 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> CABLE = block(LabcraftModBlocks.CABLE, LabcraftModTabs.TAB_LAB_CRAFT_ENERGY);
 	public static final RegistryObject<Item> COMPUTER = block(LabcraftModBlocks.COMPUTER, LabcraftModTabs.TAB_LAB_CRAFT);
 	public static final RegistryObject<Item> MINESOFT_SYSTEM_STICK = REGISTRY.register("minesoft_system_stick", () -> new MinesoftSystemStickItem());
+	public static final RegistryObject<Item> EMPTY_SYSTEM_STICK = REGISTRY.register("empty_system_stick", () -> new EmptySystemStickItem());
+	public static final RegistryObject<Item> MINESOFT_COMPUTER = block(LabcraftModBlocks.MINESOFT_COMPUTER, LabcraftModTabs.TAB_LAB_CRAFT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

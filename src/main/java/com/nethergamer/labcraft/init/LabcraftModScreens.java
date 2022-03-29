@@ -11,14 +11,16 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
-import com.nethergamer.labcraft.client.gui.ComputerBIOSGUIScreen;
+import com.nethergamer.labcraft.client.gui.MinesoftMainScreen;
+import com.nethergamer.labcraft.client.gui.MinesoftETraderScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class LabcraftModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(LabcraftModMenus.COMPUTER_BIOSGUI, ComputerBIOSGUIScreen::new);
+			MenuScreens.register(LabcraftModMenus.MINESOFT_MAIN, MinesoftMainScreen::new);
+			MenuScreens.register(LabcraftModMenus.MINESOFT_E_TRADER, MinesoftETraderScreen::new);
 		});
 	}
 }

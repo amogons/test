@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "labcraft:block_of_steeldust"
+    "labcraft:block_of_steeldust",
+    "labcraft:computer",
+    "labcraft:minesoft_computer"
   ]
 }

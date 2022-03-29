@@ -29,15 +29,15 @@ import java.util.stream.IntStream;
 
 import io.netty.buffer.Unpooled;
 
-import com.nethergamer.labcraft.world.inventory.ComputerBIOSGUIMenu;
+import com.nethergamer.labcraft.world.inventory.MinesoftMainMenu;
 import com.nethergamer.labcraft.init.LabcraftModBlockEntities;
 
-public class ComputerBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(1, ItemStack.EMPTY);
+public class MinesoftComputerBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public ComputerBlockEntity(BlockPos position, BlockState state) {
-		super(LabcraftModBlockEntities.COMPUTER.get(), position, state);
+	public MinesoftComputerBlockEntity(BlockPos position, BlockState state) {
+		super(LabcraftModBlockEntities.MINESOFT_COMPUTER.get(), position, state);
 	}
 
 	@Override
@@ -86,7 +86,7 @@ public class ComputerBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("computer");
+		return new TextComponent("minesoft_computer");
 	}
 
 	@Override
@@ -96,12 +96,12 @@ public class ComputerBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new ComputerBIOSGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return new MinesoftMainMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Computer");
+		return new TextComponent("Minesoft Computer");
 	}
 
 	@Override
@@ -131,8 +131,6 @@ public class ComputerBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
-		if (index == 0)
-			return false;
 		return true;
 	}
 

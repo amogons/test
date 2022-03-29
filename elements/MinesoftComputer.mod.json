@@ -2,7 +2,7 @@
   "_fv": 25,
   "_type": "block",
   "definition": {
-    "texture": "battery1",
+    "texture": "minesoftcomputers",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Computer",
+    "name": "Minesoft Computer",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -104,17 +104,15 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 1,
+    "hasInventory": true,
+    "guiBoundTo": "MinesoftMain",
+    "openGUIOnRightClick": true,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [
-      0
-    ],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

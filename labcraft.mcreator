@@ -190,15 +190,6 @@
       "registry_name": "lab_craft_energy"
     },
     {
-      "name": "ComputerBIOSGUI",
-      "type": "gui",
-      "sortid": 20,
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "computer_biosgui",
-      "path": "~/GUIs"
-    },
-    {
       "name": "Computer",
       "type": "block",
       "sortid": 20,
@@ -223,6 +214,51 @@
       "locked_code": false,
       "registry_name": "minesoft_system_stick",
       "path": "~/Computers"
+    },
+    {
+      "name": "EmptySystemStick",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_system_stick",
+      "path": "~/Computers"
+    },
+    {
+      "name": "MinesoftComputer",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minesoft_computer",
+      "path": "~/Computers"
+    },
+    {
+      "name": "MinesoftMain",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minesoft_main",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "MinesoftETrader",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minesoft_e_trader",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "SteelDustBlockRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust_block_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -231,6 +267,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "EMeralds",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
     }
   ],
   "sound_elements": [],
@@ -243,7 +285,9 @@
       "item.labcraft.steel_ingot": "Steel Ingot",
       "block.labcraft.block_of_steel": "Block of Steel",
       "block.labcraft.battery_tier_1": "Battery Tier 1",
+      "item.labcraft.empty_system_stick": "Empty System Stick",
       "block.labcraft.block_of_steeldust": "Block Of Steeldust",
+      "block.labcraft.minesoft_computer": "Minesoft Computer",
       "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft_computer": "Lab CraftComputers",
       "item.labcraft.hammer": "Hammer",
@@ -258,7 +302,9 @@
       "item.labcraft.steel_ingot": "Stahl Barren",
       "block.labcraft.block_of_steel": "Block aus Stahl",
       "block.labcraft.battery_tier_1": "Battery Tier 1",
+      "item.labcraft.empty_system_stick": "Empty System Stick",
       "block.labcraft.block_of_steeldust": "Block Of Steeldust",
+      "block.labcraft.minesoft_computer": "Minesoft Computer",
       "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft_computer": "Lab CraftComputers",
       "item.labcraft.hammer": "Hammer",
@@ -321,7 +367,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "com.nethergamer.labcraft",

@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import com.nethergamer.labcraft.block.MinesoftComputerBlock;
 import com.nethergamer.labcraft.block.ComputerBlock;
 import com.nethergamer.labcraft.block.CableBlock;
 import com.nethergamer.labcraft.block.BlockOfSteeldustBlock;
@@ -28,6 +29,7 @@ public class LabcraftModBlocks {
 	public static final RegistryObject<Block> BATTERY_TIER_1 = REGISTRY.register("battery_tier_1", () -> new BatteryTier1Block());
 	public static final RegistryObject<Block> CABLE = REGISTRY.register("cable", () -> new CableBlock());
 	public static final RegistryObject<Block> COMPUTER = REGISTRY.register("computer", () -> new ComputerBlock());
+	public static final RegistryObject<Block> MINESOFT_COMPUTER = REGISTRY.register("minesoft_computer", () -> new MinesoftComputerBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

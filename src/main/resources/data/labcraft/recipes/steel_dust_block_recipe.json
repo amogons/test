@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "labcraft:steel_dust"
+    },
+    "1": {
+      "item": "labcraft:steel_dust"
+    },
+    "2": {
+      "item": "labcraft:steel_dust"
+    },
+    "3": {
+      "item": "labcraft:steel_dust"
+    },
+    "4": {
+      "item": "labcraft:steel_dust"
+    },
+    "5": {
+      "item": "labcraft:steel_dust"
+    },
+    "6": {
+      "item": "labcraft:steel_dust"
+    },
+    "7": {
+      "item": "labcraft:steel_dust"
+    },
+    "8": {
+      "item": "labcraft:steel_dust"
+    }
+  },
+  "result": {
+    "item": "labcraft:block_of_steeldust",
+    "count": 1
+  }
+}
