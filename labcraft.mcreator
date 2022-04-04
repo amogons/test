@@ -259,6 +259,14 @@
       "locked_code": false,
       "registry_name": "steel_dust_block_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "LabCraftSpace",
+      "type": "tab",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_craft_space"
     }
   ],
   "variable_elements": [
@@ -290,6 +298,7 @@
       "block.labcraft.minesoft_computer": "Minesoft Computer",
       "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft_computer": "Lab CraftComputers",
+      "itemGroup.tablab_craft_space": "Lab Craft:Space",
       "item.labcraft.hammer": "Hammer",
       "item.labcraft.steel_nugget": "Steel Nugget",
       "item.labcraft.steel_dust": "Steel Dust"
@@ -307,6 +316,7 @@
       "block.labcraft.minesoft_computer": "Minesoft Computer",
       "itemGroup.tablab_craft_energy": "Lab Craft:Energy",
       "itemGroup.tablab_craft_computer": "Lab CraftComputers",
+      "itemGroup.tablab_craft_space": "Lab Craft:Space",
       "item.labcraft.hammer": "Hammer",
       "item.labcraft.steel_nugget": "Stahl Klumpen",
       "item.labcraft.steel_dust": "Stahl Staub"

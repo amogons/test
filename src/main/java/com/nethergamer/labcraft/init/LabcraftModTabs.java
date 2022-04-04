@@ -16,6 +16,7 @@ public class LabcraftModTabs {
 	public static CreativeModeTab TAB_LAB_CRAFT;
 	public static CreativeModeTab TAB_LAB_CRAFT_ENERGY;
 	public static CreativeModeTab TAB_LAB_CRAFT_COMPUTER;
+	public static CreativeModeTab TAB_LAB_CRAFT_SPACE;
 
 	public static void load() {
 		TAB_LAB_CRAFT = new CreativeModeTab("tablab_craft") {
@@ -44,6 +45,17 @@ public class LabcraftModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(Items.REDSTONE);
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_LAB_CRAFT_SPACE = new CreativeModeTab("tablab_craft_space") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(Blocks.END_GATEWAY);
 			}
 
 			@OnlyIn(Dist.CLIENT)
