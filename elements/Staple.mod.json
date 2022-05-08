@@ -2,10 +2,10 @@
   "_fv": 25,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "staple",
-    "customModelName": "Normal",
-    "name": "Staple",
+    "customModelName": "nailshooter:default",
+    "name": "Nail Shooter",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:LabCraft"
@@ -20,7 +20,7 @@
       "value": "block.comparator.click"
     },
     "hasGlow": false,
-    "animation": "crossbow",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 2.0,
@@ -31,7 +31,7 @@
     "bulletItemTexture": {
       "value": "CUSTOM:Nail"
     },
-    "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "nail.png"
   }
 }

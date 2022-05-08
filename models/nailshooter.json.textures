@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nailshooter1",
+        "1": "nailshooter2"
+      },
+      "name": "default"
+    }
+  }
+}
