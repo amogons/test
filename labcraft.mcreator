@@ -3,7 +3,7 @@
     {
       "name": "LabCraft",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft"
@@ -11,7 +11,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot",
@@ -20,7 +20,7 @@
     {
       "name": "SteelIngotProduce",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce",
@@ -38,7 +38,7 @@
     {
       "name": "SteelDust",
       "type": "item",
-      "sortid": 5,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_dust",
@@ -47,7 +47,7 @@
     {
       "name": "SteelDustProduce",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_dust_produce",
@@ -56,7 +56,7 @@
     {
       "name": "HammerProduce",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hammer_produce",
@@ -65,7 +65,7 @@
     {
       "name": "BlockOfSteel",
       "type": "block",
-      "sortid": 4,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_steel",
@@ -74,7 +74,7 @@
     {
       "name": "SteelNugget",
       "type": "item",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_nugget",
@@ -83,7 +83,7 @@
     {
       "name": "SteelNuggetProduce",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_nugget_produce",
@@ -92,7 +92,7 @@
     {
       "name": "SteelBlockProduce",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_produce",
@@ -101,7 +101,7 @@
     {
       "name": "SteelIngotProduce2",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce_2",
@@ -110,7 +110,7 @@
     {
       "name": "SteelIngotProduce3",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_produce_3",
@@ -119,7 +119,7 @@
     {
       "name": "Radioactivity",
       "type": "overlay",
-      "sortid": 17,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radioactivity",
@@ -128,7 +128,7 @@
     {
       "name": "CableWork",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cable_work",
@@ -157,7 +157,7 @@
     {
       "name": "BatteryTier1",
       "type": "block",
-      "sortid": 7,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "battery_tier_1",
@@ -166,7 +166,7 @@
     {
       "name": "BlockOfSteeldust",
       "type": "block",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_steeldust",
@@ -175,7 +175,7 @@
     {
       "name": "LabCraftEnergy",
       "type": "tab",
-      "sortid": 19,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft_energy"
@@ -183,7 +183,7 @@
     {
       "name": "Computer",
       "type": "block",
-      "sortid": 20,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "computer",
@@ -192,7 +192,7 @@
     {
       "name": "LabCraftComputer",
       "type": "tab",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft_computer"
@@ -200,7 +200,7 @@
     {
       "name": "MinesoftSystemStick",
       "type": "item",
-      "sortid": 22,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minesoft_system_stick",
@@ -209,7 +209,7 @@
     {
       "name": "EmptySystemStick",
       "type": "item",
-      "sortid": 23,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_system_stick",
@@ -218,7 +218,7 @@
     {
       "name": "MinesoftComputer",
       "type": "block",
-      "sortid": 24,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minesoft_computer",
@@ -227,7 +227,7 @@
     {
       "name": "MinesoftMain",
       "type": "gui",
-      "sortid": 25,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minesoft_main",
@@ -236,7 +236,7 @@
     {
       "name": "MinesoftETrader",
       "type": "gui",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minesoft_e_trader",
@@ -245,7 +245,7 @@
     {
       "name": "SteelDustBlockRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_dust_block_recipe",
@@ -254,7 +254,7 @@
     {
       "name": "LabCraftSpace",
       "type": "tab",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_craft_space"
@@ -262,7 +262,7 @@
     {
       "name": "Screwdriver",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "screwdriver",
@@ -271,7 +271,7 @@
     {
       "name": "Nail",
       "type": "item",
-      "sortid": 30,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nail"
@@ -279,7 +279,7 @@
     {
       "name": "Staple",
       "type": "rangeditem",
-      "sortid": 30,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "staple",

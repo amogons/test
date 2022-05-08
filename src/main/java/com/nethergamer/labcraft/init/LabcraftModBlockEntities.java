@@ -17,10 +17,10 @@ import com.nethergamer.labcraft.LabcraftMod;
 
 public class LabcraftModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, LabcraftMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> BATTERY_TIER_1 = register("battery_tier_1", LabcraftModBlocks.BATTERY_TIER_1,
-			BatteryTier1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MINESOFT_COMPUTER = register("minesoft_computer", LabcraftModBlocks.MINESOFT_COMPUTER,
 			MinesoftComputerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> BATTERY_TIER_1 = register("battery_tier_1", LabcraftModBlocks.BATTERY_TIER_1,
+			BatteryTier1BlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {
