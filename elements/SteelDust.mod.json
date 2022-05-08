@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "asdf_dust",
+    "texture": "steeldust",
     "customModelName": "Normal",
     "name": "Steel Dust",
     "rarity": "COMMON",
