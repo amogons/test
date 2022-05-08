@@ -32,6 +32,7 @@ import java.util.function.BiConsumer;
 
 import com.nethergamer.labcraft.init.LabcraftModTabs;
 import com.nethergamer.labcraft.init.LabcraftModItems;
+import com.nethergamer.labcraft.init.LabcraftModEntities;
 import com.nethergamer.labcraft.init.LabcraftModBlocks;
 import com.nethergamer.labcraft.init.LabcraftModBlockEntities;
 
@@ -49,7 +50,7 @@ public class LabcraftMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		LabcraftModBlocks.REGISTRY.register(bus);
 		LabcraftModItems.REGISTRY.register(bus);
-
+		LabcraftModEntities.REGISTRY.register(bus);
 		LabcraftModBlockEntities.REGISTRY.register(bus);
 
 	}

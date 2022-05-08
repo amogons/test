@@ -1,8 +1,0 @@
-{
-  "parent": "labcraft:custom/cable",
-  "textures": {
-    "all": "labcraft:blocks/cable",
-    "particle": "labcraft:blocks/cable",
-    "0": "labcraft:blocks/cable"
-  }
-}
