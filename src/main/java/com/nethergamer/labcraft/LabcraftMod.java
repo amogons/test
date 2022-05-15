@@ -35,6 +35,7 @@ import com.nethergamer.labcraft.init.LabcraftModItems;
 import com.nethergamer.labcraft.init.LabcraftModEntities;
 import com.nethergamer.labcraft.init.LabcraftModBlocks;
 import com.nethergamer.labcraft.init.LabcraftModBlockEntities;
+import com.nethergamer.labcraft.init.LabcraftModBiomes;
 
 @Mod("labcraft")
 public class LabcraftMod {
@@ -53,6 +54,7 @@ public class LabcraftMod {
 		LabcraftModEntities.REGISTRY.register(bus);
 		LabcraftModBlockEntities.REGISTRY.register(bus);
 
+		LabcraftModBiomes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

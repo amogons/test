@@ -3,17 +3,17 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "screwdriver",
+    "texture": "darksaber",
     "customModelName": "Normal",
-    "name": "Screwdriver",
+    "name": "Dark Saber",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:LabCrafToolsAndArmor"
     },
-    "toolType": "Special",
+    "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 6.0,
-    "attackSpeed": 1.0,
+    "efficiency": 4.0,
+    "attackSpeed": 10.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 0,

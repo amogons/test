@@ -18,10 +18,14 @@ import com.nethergamer.labcraft.item.SteelIngotItem;
 import com.nethergamer.labcraft.item.SteelDustItem;
 import com.nethergamer.labcraft.item.StapleItem;
 import com.nethergamer.labcraft.item.ScrewdriverItem;
+import com.nethergamer.labcraft.item.RedLightSaberItem;
+import com.nethergamer.labcraft.item.ProtosaberItem;
 import com.nethergamer.labcraft.item.NailItem;
 import com.nethergamer.labcraft.item.MinesoftSystemStickItem;
 import com.nethergamer.labcraft.item.HammerItem;
+import com.nethergamer.labcraft.item.EnergyBackpackItem;
 import com.nethergamer.labcraft.item.EmptySystemStickItem;
+import com.nethergamer.labcraft.item.DarkSaberItem;
 import com.nethergamer.labcraft.LabcraftMod;
 
 public class LabcraftModItems {
@@ -40,6 +44,12 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> BATTERY_TIER_1 = block(LabcraftModBlocks.BATTERY_TIER_1, LabcraftModTabs.TAB_LAB_CRAFT_ENERGY);
 	public static final RegistryObject<Item> MINESOFT_SYSTEM_STICK = REGISTRY.register("minesoft_system_stick", () -> new MinesoftSystemStickItem());
 	public static final RegistryObject<Item> EMPTY_SYSTEM_STICK = REGISTRY.register("empty_system_stick", () -> new EmptySystemStickItem());
+	public static final RegistryObject<Item> MOON_STONE = block(LabcraftModBlocks.MOON_STONE, LabcraftModTabs.TAB_LAB_CRAFT_SPACE);
+	public static final RegistryObject<Item> ENERGY_BACKPACK_CHESTPLATE = REGISTRY.register("energy_backpack_chestplate",
+			() -> new EnergyBackpackItem.Chestplate());
+	public static final RegistryObject<Item> DARK_SABER = REGISTRY.register("dark_saber", () -> new DarkSaberItem());
+	public static final RegistryObject<Item> RED_LIGHT_SABER = REGISTRY.register("red_light_saber", () -> new RedLightSaberItem());
+	public static final RegistryObject<Item> PROTOSABER = REGISTRY.register("protosaber", () -> new ProtosaberItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

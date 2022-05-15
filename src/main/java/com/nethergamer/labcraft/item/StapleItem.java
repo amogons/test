@@ -20,7 +20,7 @@ import com.nethergamer.labcraft.entity.StapleEntity;
 
 public class StapleItem extends Item {
 	public StapleItem() {
-		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAFT).stacksTo(1));
+		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAF_TOOLS_AND_ARMOR).stacksTo(1));
 	}
 
 	@Override

@@ -8,7 +8,7 @@
     "name": "Nail Shooter",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:LabCraft"
+      "value": "CUSTOM:LabCrafToolsAndArmor"
     },
     "stackSize": 1,
     "ammoItem": {

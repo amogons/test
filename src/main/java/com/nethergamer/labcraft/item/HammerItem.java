@@ -15,7 +15,7 @@ import com.nethergamer.labcraft.init.LabcraftModTabs;
 
 public class HammerItem extends Item {
 	public HammerItem() {
-		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAFT).durability(512).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAF_TOOLS_AND_ARMOR).durability(512).rarity(Rarity.COMMON));
 	}
 
 	@Override

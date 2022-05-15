@@ -8,7 +8,7 @@
     "name": "Hammer",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:LabCraft"
+      "value": "CUSTOM:LabCrafToolsAndArmor"
     },
     "stackSize": 1,
     "enchantability": 0,

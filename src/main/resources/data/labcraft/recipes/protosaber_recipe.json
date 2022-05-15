@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "1": {
+      "item": "minecraft:end_rod"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "item": "labcraft:steel_ingot"
+    },
+    "4": {
+      "item": "minecraft:bucket"
+    },
+    "5": {
+      "item": "labcraft:steel_ingot"
+    },
+    "6": {
+      "item": "labcraft:steel_ingot"
+    },
+    "7": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "8": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "labcraft:protosaber",
+    "count": 1
+  }
+}

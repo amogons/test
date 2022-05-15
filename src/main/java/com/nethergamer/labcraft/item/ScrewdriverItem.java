@@ -21,7 +21,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class ScrewdriverItem extends Item {
 	public ScrewdriverItem() {
-		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAFT).durability(0));
+		super(new Item.Properties().tab(LabcraftModTabs.TAB_LAB_CRAF_TOOLS_AND_ARMOR).durability(0));
 	}
 
 	@Override

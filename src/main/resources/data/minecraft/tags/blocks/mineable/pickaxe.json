@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "labcraft:battery_tier_1"
+    "labcraft:battery_tier_1",
+    "labcraft:moon_stone"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "_fv": 25,
+  "_type": "tab",
+  "definition": {
+    "name": "Lab Craf Tools and Armor",
+    "icon": {
+      "value": "Items.NETHERITE_PICKAXE"
+    },
+    "showSearch": false
+  }
+}
