@@ -412,6 +412,15 @@
       "locked_code": false,
       "registry_name": "red_light_saber_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "DarkSaberRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_saber_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -472,7 +481,7 @@
       "item.labcraft.empty_system_stick": "Leerer System Speicher",
       "block.labcraft.moon_stone": "Moon Stone",
       "block.labcraft.block_of_steeldust": "Stahlstaub Block",
-      "item.labcraft.staple": "NagelschieÃŸer",
+      "item.labcraft.staple": "NagelschieÃƒÅ¸er",
       "block.labcraft.minesoft_computer": "Minesoft Computer",
       "itemGroup.tablab_craft_energy": "Lab Craft:Energie",
       "itemGroup.tablab_craf_tools_and_armor": "Lab Craf Tools and Armor",
