@@ -20,6 +20,7 @@ import com.nethergamer.labcraft.item.StapleItem;
 import com.nethergamer.labcraft.item.ScrewdriverItem;
 import com.nethergamer.labcraft.item.RedLightSaberItem;
 import com.nethergamer.labcraft.item.ProtosaberItem;
+import com.nethergamer.labcraft.item.ObsidianarmorItem;
 import com.nethergamer.labcraft.item.NailItem;
 import com.nethergamer.labcraft.item.MinesoftSystemStickItem;
 import com.nethergamer.labcraft.item.HammerItem;
@@ -50,6 +51,12 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> DARK_SABER = REGISTRY.register("dark_saber", () -> new DarkSaberItem());
 	public static final RegistryObject<Item> RED_LIGHT_SABER = REGISTRY.register("red_light_saber", () -> new RedLightSaberItem());
 	public static final RegistryObject<Item> PROTOSABER = REGISTRY.register("protosaber", () -> new ProtosaberItem());
+	public static final RegistryObject<Item> OBSIDIANARMOR_HELMET = REGISTRY.register("obsidianarmor_helmet", () -> new ObsidianarmorItem.Helmet());
+	public static final RegistryObject<Item> OBSIDIANARMOR_CHESTPLATE = REGISTRY.register("obsidianarmor_chestplate",
+			() -> new ObsidianarmorItem.Chestplate());
+	public static final RegistryObject<Item> OBSIDIANARMOR_LEGGINGS = REGISTRY.register("obsidianarmor_leggings",
+			() -> new ObsidianarmorItem.Leggings());
+	public static final RegistryObject<Item> OBSIDIANARMOR_BOOTS = REGISTRY.register("obsidianarmor_boots", () -> new ObsidianarmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
