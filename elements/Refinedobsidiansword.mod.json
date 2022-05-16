@@ -1,0 +1,27 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obsidiansword",
+    "customModelName": "Normal",
+    "name": "Refined obsidian sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 4,
+    "damageVsEntity": 4.199999999999999,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

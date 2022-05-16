@@ -18,6 +18,7 @@ import com.nethergamer.labcraft.item.SteelIngotItem;
 import com.nethergamer.labcraft.item.SteelDustItem;
 import com.nethergamer.labcraft.item.StapleItem;
 import com.nethergamer.labcraft.item.ScrewdriverItem;
+import com.nethergamer.labcraft.item.RefinedobsidianswordItem;
 import com.nethergamer.labcraft.item.RedLightSaberItem;
 import com.nethergamer.labcraft.item.ProtosaberItem;
 import com.nethergamer.labcraft.item.ObsidianarmorItem;
@@ -57,6 +58,7 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> OBSIDIANARMOR_LEGGINGS = REGISTRY.register("obsidianarmor_leggings",
 			() -> new ObsidianarmorItem.Leggings());
 	public static final RegistryObject<Item> OBSIDIANARMOR_BOOTS = REGISTRY.register("obsidianarmor_boots", () -> new ObsidianarmorItem.Boots());
+	public static final RegistryObject<Item> REFINEDOBSIDIANSWORD = REGISTRY.register("refinedobsidiansword", () -> new RefinedobsidianswordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
