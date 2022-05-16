@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dragon_egg"
+    },
+    "1": {
+      "item": "minecraft:beacon"
+    },
+    "2": {
+      "item": "labcraft:protosaber"
+    }
+  },
+  "result": {
+    "item": "labcraft:dark_saber",
+    "count": 1
+  }
+}
