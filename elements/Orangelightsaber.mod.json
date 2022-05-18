@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "obsidiansword",
+    "texture": "redlightsaber",
     "customModelName": "Normal",
-    "name": "Refined obsidian sword",
+    "name": "Orangelightsaber",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Pickaxe",
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.2000000000000002,
-    "enchantability": 4,
-    "damageVsEntity": 10.0,
-    "usageCount": 100,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 15.0,
+    "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
 }

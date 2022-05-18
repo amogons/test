@@ -20,7 +20,7 @@ public class RefinedobsidianswordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2.199999999999999f;
+				return 8f;
 			}
 
 			public int getLevel() {

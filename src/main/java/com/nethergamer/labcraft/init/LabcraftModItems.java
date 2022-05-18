@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import com.nethergamer.labcraft.item.YellowlightsaberItem;
 import com.nethergamer.labcraft.item.SteelNuggetItem;
 import com.nethergamer.labcraft.item.SteelIngotItem;
 import com.nethergamer.labcraft.item.SteelDustItem;
@@ -20,14 +21,18 @@ import com.nethergamer.labcraft.item.StapleItem;
 import com.nethergamer.labcraft.item.ScrewdriverItem;
 import com.nethergamer.labcraft.item.RefinedobsidianswordItem;
 import com.nethergamer.labcraft.item.RedLightSaberItem;
+import com.nethergamer.labcraft.item.PurplelightsaberItem;
 import com.nethergamer.labcraft.item.ProtosaberItem;
+import com.nethergamer.labcraft.item.OrangelightsaberItem;
 import com.nethergamer.labcraft.item.ObsidianarmorItem;
 import com.nethergamer.labcraft.item.NailItem;
 import com.nethergamer.labcraft.item.MinesoftSystemStickItem;
 import com.nethergamer.labcraft.item.HammerItem;
+import com.nethergamer.labcraft.item.GreenlightsaberItem;
 import com.nethergamer.labcraft.item.EnergyBackpackItem;
 import com.nethergamer.labcraft.item.EmptySystemStickItem;
 import com.nethergamer.labcraft.item.DarkSaberItem;
+import com.nethergamer.labcraft.item.BluelightsaberItem;
 import com.nethergamer.labcraft.LabcraftMod;
 
 public class LabcraftModItems {
@@ -59,6 +64,11 @@ public class LabcraftModItems {
 			() -> new ObsidianarmorItem.Leggings());
 	public static final RegistryObject<Item> OBSIDIANARMOR_BOOTS = REGISTRY.register("obsidianarmor_boots", () -> new ObsidianarmorItem.Boots());
 	public static final RegistryObject<Item> REFINEDOBSIDIANSWORD = REGISTRY.register("refinedobsidiansword", () -> new RefinedobsidianswordItem());
+	public static final RegistryObject<Item> PURPLELIGHTSABER = REGISTRY.register("purplelightsaber", () -> new PurplelightsaberItem());
+	public static final RegistryObject<Item> BLUELIGHTSABER = REGISTRY.register("bluelightsaber", () -> new BluelightsaberItem());
+	public static final RegistryObject<Item> GREENLIGHTSABER = REGISTRY.register("greenlightsaber", () -> new GreenlightsaberItem());
+	public static final RegistryObject<Item> ORANGELIGHTSABER = REGISTRY.register("orangelightsaber", () -> new OrangelightsaberItem());
+	public static final RegistryObject<Item> YELLOWLIGHTSABER = REGISTRY.register("yellowlightsaber", () -> new YellowlightsaberItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
