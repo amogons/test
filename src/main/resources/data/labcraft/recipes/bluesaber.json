@@ -10,10 +10,10 @@
       "item": "minecraft:blue_stained_glass_pane"
     },
     "1": {
-      "item": "minecraft:beacon"
+      "item": "labcraft:kybercrystal"
     },
     "2": {
-      "item": "minecraft:iron_ingot"
+      "item": "labcraft:ironstick"
     }
   },
   "result": {

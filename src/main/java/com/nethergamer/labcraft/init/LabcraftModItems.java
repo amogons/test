@@ -21,12 +21,15 @@ import com.nethergamer.labcraft.item.StapleItem;
 import com.nethergamer.labcraft.item.ScrewdriverItem;
 import com.nethergamer.labcraft.item.RefinedobsidianswordItem;
 import com.nethergamer.labcraft.item.RedLightSaberItem;
+import com.nethergamer.labcraft.item.RainbowlightsaberItem;
 import com.nethergamer.labcraft.item.PurplelightsaberItem;
 import com.nethergamer.labcraft.item.ProtosaberItem;
 import com.nethergamer.labcraft.item.OrangelightsaberItem;
 import com.nethergamer.labcraft.item.ObsidianarmorItem;
 import com.nethergamer.labcraft.item.NailItem;
 import com.nethergamer.labcraft.item.MinesoftSystemStickItem;
+import com.nethergamer.labcraft.item.KybercrystalItem;
+import com.nethergamer.labcraft.item.IronstickItem;
 import com.nethergamer.labcraft.item.HammerItem;
 import com.nethergamer.labcraft.item.GreenlightsaberItem;
 import com.nethergamer.labcraft.item.EnergyBackpackItem;
@@ -69,6 +72,9 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> GREENLIGHTSABER = REGISTRY.register("greenlightsaber", () -> new GreenlightsaberItem());
 	public static final RegistryObject<Item> ORANGELIGHTSABER = REGISTRY.register("orangelightsaber", () -> new OrangelightsaberItem());
 	public static final RegistryObject<Item> YELLOWLIGHTSABER = REGISTRY.register("yellowlightsaber", () -> new YellowlightsaberItem());
+	public static final RegistryObject<Item> RAINBOWLIGHTSABER = REGISTRY.register("rainbowlightsaber", () -> new RainbowlightsaberItem());
+	public static final RegistryObject<Item> IRONSTICK = REGISTRY.register("ironstick", () -> new IronstickItem());
+	public static final RegistryObject<Item> KYBERCRYSTAL = REGISTRY.register("kybercrystal", () -> new KybercrystalItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

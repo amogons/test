@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "Blocks.STAINED_GLASS_PANE#14"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Kybercrystal"
+        "value": "CUSTOM:Purplelightsaber"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Orangelightsaber"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Bluelightsaber"
       },
       {
-        "value": "CUSTOM:Ironstick"
+        "value": "CUSTOM:Greenlightsaber"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Yellowlightsaber"
+      },
+      {
+        "value": "CUSTOM:RedLightSaber"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RedLightSaber"
+      "value": "CUSTOM:Rainbowlightsaber"
     },
-    "name": "red_light_saber_recipe",
+    "name": "rainbowsaber",
     "namespace": "mod"
   }
 }

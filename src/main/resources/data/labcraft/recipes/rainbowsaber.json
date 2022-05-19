@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "labcraft:purplelightsaber"
+    },
+    "1": {
+      "item": "labcraft:orangelightsaber"
+    },
+    "2": {
+      "item": "labcraft:bluelightsaber"
+    },
+    "3": {
+      "item": "labcraft:greenlightsaber"
+    },
+    "4": {
+      "item": "labcraft:yellowlightsaber"
+    },
+    "5": {
+      "item": "labcraft:red_light_saber"
+    }
+  },
+  "result": {
+    "item": "labcraft:rainbowlightsaber",
+    "count": 1
+  }
+}
