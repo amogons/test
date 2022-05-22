@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "labcraft:items/redlightsaber"
+    "layer0": "labcraft:items/greenlightsaber"
   }
 }

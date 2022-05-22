@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "1": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "2": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "3": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "4": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "5": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "6": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "7": {
+      "item": "labcraft:loadeddiamond"
+    },
+    "8": {
+      "item": "labcraft:loadeddiamond"
+    }
+  },
+  "result": {
+    "item": "labcraft:kybercrystal",
+    "count": 1
+  }
+}

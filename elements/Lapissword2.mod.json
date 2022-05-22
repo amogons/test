@@ -1,0 +1,27 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lapissword2",
+    "customModelName": "Normal",
+    "name": "Lapissword 2",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LabCrafToolsAndArmor"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 4.0,
+    "enchantability": 6,
+    "damageVsEntity": 13.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

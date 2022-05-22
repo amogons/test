@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import com.nethergamer.labcraft.block.SteelblockjBlock;
 import com.nethergamer.labcraft.block.MoonStoneBlock;
 import com.nethergamer.labcraft.block.MinesoftComputerBlock;
 import com.nethergamer.labcraft.block.ComputerBlock;
@@ -26,4 +27,5 @@ public class LabcraftModBlocks {
 	public static final RegistryObject<Block> MINESOFT_COMPUTER = REGISTRY.register("minesoft_computer", () -> new MinesoftComputerBlock());
 	public static final RegistryObject<Block> BATTERY_TIER_1 = REGISTRY.register("battery_tier_1", () -> new BatteryTier1Block());
 	public static final RegistryObject<Block> MOON_STONE = REGISTRY.register("moon_stone", () -> new MoonStoneBlock());
+	public static final RegistryObject<Block> STEELBLOCKJ = REGISTRY.register("steelblockj", () -> new SteelblockjBlock());
 }

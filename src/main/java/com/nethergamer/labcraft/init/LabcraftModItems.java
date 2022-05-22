@@ -28,12 +28,17 @@ import com.nethergamer.labcraft.item.OrangelightsaberItem;
 import com.nethergamer.labcraft.item.ObsidianarmorItem;
 import com.nethergamer.labcraft.item.NailItem;
 import com.nethergamer.labcraft.item.MinesoftSystemStickItem;
+import com.nethergamer.labcraft.item.LoadeddiamondItem;
+import com.nethergamer.labcraft.item.LapisswordItem;
+import com.nethergamer.labcraft.item.Lapissword2Item;
 import com.nethergamer.labcraft.item.KybercrystalItem;
 import com.nethergamer.labcraft.item.IronstickItem;
 import com.nethergamer.labcraft.item.HammerItem;
 import com.nethergamer.labcraft.item.GreenlightsaberItem;
 import com.nethergamer.labcraft.item.EnergyBackpackItem;
 import com.nethergamer.labcraft.item.EmptySystemStickItem;
+import com.nethergamer.labcraft.item.EmeraldswordItem;
+import com.nethergamer.labcraft.item.Emeraldsword2Item;
 import com.nethergamer.labcraft.item.DarkSaberItem;
 import com.nethergamer.labcraft.item.BluelightsaberItem;
 import com.nethergamer.labcraft.LabcraftMod;
@@ -75,6 +80,12 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> RAINBOWLIGHTSABER = REGISTRY.register("rainbowlightsaber", () -> new RainbowlightsaberItem());
 	public static final RegistryObject<Item> IRONSTICK = REGISTRY.register("ironstick", () -> new IronstickItem());
 	public static final RegistryObject<Item> KYBERCRYSTAL = REGISTRY.register("kybercrystal", () -> new KybercrystalItem());
+	public static final RegistryObject<Item> EMERALDSWORD = REGISTRY.register("emeraldsword", () -> new EmeraldswordItem());
+	public static final RegistryObject<Item> LOADEDDIAMOND = REGISTRY.register("loadeddiamond", () -> new LoadeddiamondItem());
+	public static final RegistryObject<Item> STEELBLOCKJ = block(LabcraftModBlocks.STEELBLOCKJ, LabcraftModTabs.TAB_LAB_CRAFT);
+	public static final RegistryObject<Item> LAPISSWORD = REGISTRY.register("lapissword", () -> new LapisswordItem());
+	public static final RegistryObject<Item> EMERALDSWORD_2 = REGISTRY.register("emeraldsword_2", () -> new Emeraldsword2Item());
+	public static final RegistryObject<Item> LAPISSWORD_2 = REGISTRY.register("lapissword_2", () -> new Lapissword2Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
