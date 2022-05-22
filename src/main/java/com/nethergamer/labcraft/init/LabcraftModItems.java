@@ -14,10 +14,14 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import com.nethergamer.labcraft.item.YellowlightsaberItem;
+import com.nethergamer.labcraft.item.WallnutItem;
 import com.nethergamer.labcraft.item.SteelNuggetItem;
 import com.nethergamer.labcraft.item.SteelIngotItem;
 import com.nethergamer.labcraft.item.SteelDustItem;
 import com.nethergamer.labcraft.item.StapleItem;
+import com.nethergamer.labcraft.item.SpeerItem;
+import com.nethergamer.labcraft.item.ShinswordItem;
+import com.nethergamer.labcraft.item.ShinItem;
 import com.nethergamer.labcraft.item.ScrewdriverItem;
 import com.nethergamer.labcraft.item.RefinedobsidianswordItem;
 import com.nethergamer.labcraft.item.RedLightSaberItem;
@@ -86,6 +90,10 @@ public class LabcraftModItems {
 	public static final RegistryObject<Item> LAPISSWORD = REGISTRY.register("lapissword", () -> new LapisswordItem());
 	public static final RegistryObject<Item> EMERALDSWORD_2 = REGISTRY.register("emeraldsword_2", () -> new Emeraldsword2Item());
 	public static final RegistryObject<Item> LAPISSWORD_2 = REGISTRY.register("lapissword_2", () -> new Lapissword2Item());
+	public static final RegistryObject<Item> SHINSWORD = REGISTRY.register("shinsword", () -> new ShinswordItem());
+	public static final RegistryObject<Item> SHIN = REGISTRY.register("shin", () -> new ShinItem());
+	public static final RegistryObject<Item> WALLNUT = REGISTRY.register("wallnut", () -> new WallnutItem());
+	public static final RegistryObject<Item> SPEER = REGISTRY.register("speer", () -> new SpeerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

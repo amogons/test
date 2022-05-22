@@ -1,0 +1,27 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shinsword",
+    "customModelName": "Normal",
+    "name": "Shinsword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LabCrafToolsAndArmor"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 8.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

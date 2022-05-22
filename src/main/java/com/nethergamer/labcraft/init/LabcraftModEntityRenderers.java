@@ -9,6 +9,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 import com.nethergamer.labcraft.client.renderer.StapleRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -16,5 +18,6 @@ public class LabcraftModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(LabcraftModEntities.STAPLE.get(), StapleRenderer::new);
+		event.registerEntityRenderer(LabcraftModEntities.SPEER.get(), ThrownItemRenderer::new);
 	}
 }
